@@ -1,0 +1,52 @@
+{
+    "config": {
+      "error": {
+        "communication": "impossible de se connecter au chargeur OpenEVSE. Pour plus de détails, consultez les logs."
+      },
+      "step": {
+        "user": {
+          "data": {
+            "name": "Alias",
+            "host": "Hôte/IP",
+            "password": "Mot de passe (optionnel)",
+            "username": "Nom d'utilisateur (optionnel)",
+            "grid": "Capteur d'import/export réseau (optionnel)",
+            "solar": "Capteur de production solaire (optionnel)",
+            "invert_grid": "Inverser import/export réseau"
+          },
+          "description": "Entrez SVP les informations de connexion au chargeur OpenEVSE.\nVous pouvez aussi indiquer vos capteurs d'import/export réseau ou de production solaire pour transmission vers OpenEVSE.\n\nNOTE IMPORTANTE: OpenEVSE attend des imports postifs et des exports négatifs."
+          "title": "Configuration OpenEVSE"
+        },
+        "discovery_confirm": {
+          "description": "Voulez vous configurer {name} ?",
+          "title": "Chargeur découvert"
+        }         
+      }
+    },
+    "options": {
+      "error": {
+        "communication": "Impossible de se connecter au serveur mail. Pour plus de détails, consultez les logs.",
+        "invalid_path": "SVP, stockez les images dans un autre dossier.",
+        "ffmpeg_not_found": "La génération de MP4 nécessite ffmpeg",
+        "amazon_domain": "Adresse de forward email invalide.",
+        "file_not_found": "Fichier image introuvable.",
+        "scan_too_low": "Intervalle de scan trop faible (maximum 5)",
+        "timeout_too_low": "Timeout IMAP trop bas (minimum 10)"      
+      },
+      "step": {
+        "init": {
+            "data": {
+                "name": "Alias",
+                "host": "Hôte/IP",
+                "password": "Mot de passe (optionnel)",
+                "username": "Nom d'utilisateur (optionnel)",
+                "grid": "Capteur d'import/export réseau (optionnel)",
+                "solar": "Capteur de production solaire (optionnel)",
+                "invert_grid": "Inverser import/export réseau"
+            },
+          "description": "Entrez SVP les informations de connexion au chargeur OpenEVSE.\nVous pouvez aussi indiquer vos capteurs d'import/export réseau ou de production solaire pour transmission vers OpenEVSE.\n\nNOTE IMPORTANTE: OpenEVSE attend des imports postifs et des exports négatifs."
+          "title": "Configuration OpenEVSE"
+        }
+      }
+    }
+}
